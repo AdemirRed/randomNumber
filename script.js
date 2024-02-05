@@ -9,11 +9,11 @@ function gerarNumero() {
     const max = Math.floor(document.querySelector(".valorMaximo").value)
 
 
-    if (min != '' && max != '') {
+    if (max != '') {
         result = Math.floor(Math.random() * (max - min)) + min;
         alert("Valor minimo: " + min + "\n" + "Valor maximo: " + max + "\nResultado: " + result);
     } else {
-        alert("Coloque valores nos dois campos!")
+        alert("Coloque um valor máximo!")
     }
 
 

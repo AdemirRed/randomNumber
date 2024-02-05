@@ -13,7 +13,7 @@ function gerarNumero() {
         result = Math.floor(Math.random() * (max - min)) + min;
         alert("Valor minimo: " + min + "\n" + "Valor maximo: " + max + "\nResultado: " + result);
     } else {
-        alert("Coloque um valor Máximo!")
+        alert("Coloque um valor Máximo! ")
     }
 
 

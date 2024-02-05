@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100vh;
+
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    border: 1px;
+    background: #404040;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 19px 32px 79px;
+
+}
+
+input::placeholder {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto 1px;
+}
+
+
+
+button {
+    background-color: #AEC346;
+    width: 342px;
+    height: 72px;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 3px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px #AEC346, 0 0 3px #AEC346, 0 0 20px #AEC346;
+    /* Efeito de sombra neon */
+    transition: box-shadow 0.5s ease;
+    /* Adiciona uma transição suave para o efeito */
+
+
+}
+
+button:hover {
+    box-shadow: 0 0 20px #AEC346, 0 0 3px #AEC346, 0 0 30px #AEC346;
+    /* Efeito de sombra neon ao passar o mouse */
+
+}
+
+button:active {
+    opacity: 0.5;
+}

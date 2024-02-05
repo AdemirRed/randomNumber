@@ -19,4 +19,3 @@ function gerarNumero() {
 
     console.log(min, max)
 }
-

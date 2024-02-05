@@ -82,7 +82,7 @@ button:active {
     opacity: 0.5;
 }
 
-@media (max-width: 837px) {
+@media (max-width: 838px) {
     h2 {
         width: 70%;
         margin-left: auto;
